@@ -1,0 +1,35 @@
+name: image_to_text
+version: 1.0.0+1
+publish_to: none
+description: Image To Text Convart And Translator.
+environment: 
+  sdk: '>=3.0.0-290.3.beta <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  http: ^0.13.6
+  flutter_svg: ^2.0.5
+  image_cropper: ^3.0.3
+  image_picker: ^0.8.7+4
+  dotted_border: ^2.0.0+3
+  flutter_tesseract_ocr: ^0.4.22
+  google_mlkit_translation: ^0.6.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+  flutter_tesseract_ocr:
+
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/tessdata/
+    - assets/tessdata_config.json
+
